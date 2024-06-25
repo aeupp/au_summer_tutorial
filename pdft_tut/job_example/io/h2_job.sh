@@ -14,7 +14,7 @@ module load conda-env/psi4_1.8_pyscf_2.3.0-py3.8.5
 # can check which modules are avaiable with module avail
 
 # Run the Python script
-# submit the job as: 'sbatch h2_job.py'
+# submit the job as: 'sbatch h2_job.sh'
 # can see your job in queue with 'squeue -u username'
 # can use 'watch squeue -u username' to watch the progress of job
 python -u h2.py 
