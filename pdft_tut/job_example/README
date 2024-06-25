@@ -1,0 +1,14 @@
+look in IO/ to find h2.py and h2_job.py
+h2.py runs pyscf to calcuate RDM and energy for h2.
+h2_job.sh is a bash script that submits h2.py to SLURM to run on some node
+
+useful slurm commands
+squeue -u username
+slist
+sbatch script.sh
+scancel jobID 
+###     ^ can find in squeue
+i reccomend setting an alias for squeue:
+alias sq='squeue -u auppgard'
+# set in ~/.bashrc (need to source ~/.bashrc everytime)
+
