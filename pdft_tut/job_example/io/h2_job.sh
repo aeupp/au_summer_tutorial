@@ -7,7 +7,7 @@
 #SBATCH --output=test.dat ### where to write the output
 #SBATCH --error=error_test.dat ### where to write errors encounterd
 
-#### the env that (Dr) Yuming recently installed with psi4 and pyscf.
+#### the env that (Dr.) Yuming recently installed with psi4 and pyscf.
 
 module use /depot/awasser/etc/modules_psi4_1.8_pyscf_2.3.0/
 module load conda-env/psi4_1.8_pyscf_2.3.0-py3.8.5
